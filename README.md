@@ -1,3 +1,24 @@
-44.200.154.119:3000 frou
-3.234.141.237:5000 back
-LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:105188892678:loadbalancer/app/flask-alb/27492b9e7f4be9c5"
+# Flask + Express on Kubernetes (Minikube)
+
+## Steps
+1. Start minikube
+2. Build Docker images
+3. Apply Kubernetes manifests
+4. Expose frontend service
+
+## Commands Used
+(minikube start, docker build, kubectl apply, etc.)
+
+## Screenshots
+- Pods running
+- Services
+- Web application
+
+- git push commond
+git add .
+git commit -m "Deploy Flask and Express on Kubernetes"
+git push origin main
+
+
+
+
